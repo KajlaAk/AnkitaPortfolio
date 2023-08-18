@@ -1,0 +1,241 @@
+.App{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0;
+    overflow-x: hidden; /* This will prevent horizontal scrolling */
+  }
+#sidebar{
+    background-color: #d1c8e7;
+    height: 120vh;
+    width:104%;
+    
+}
+@media(max-width:767px){
+    .cointainer-fluid{
+    height: auto;
+    }
+}
+
+
+.image{
+    width: 100%;
+    max-width: 200px;
+  max-height: auto;
+    border-radius: 50%;
+   
+    box-shadow: 0px 0px 0px 1px;
+}
+
+.mypic{
+    text-align: center;
+    padding: 10px;
+}
+.linklist{
+    padding: 20px;
+}
+@media(max-width:994px){
+    .linklist{
+        padding: 1px;
+        
+    }
+}
+
+
+.list{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+@media(max-width:994px){
+    .list{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+a{
+    text-decoration: none;
+    color: #050A30;
+    font-size: 20px;
+    font-family:Constantia;
+}
+a:hover{
+    color:#050A30 ;
+    font-weight: bold;
+}
+.social{
+    text-align:left;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+}
+@media(max-width:1353px){
+    .social{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+.so{
+    padding: 30px;
+}
+@media(max-width:1027px){
+    .so{
+        padding: 1px;
+    }
+}
+.heading{
+    color: #050A30;
+    font-family:Constantia;
+    max-width: 600px;
+    width: 100%;
+    border: 2px solid #050A30 ;
+    box-shadow: 2px 2px 2px 2px ;
+    background-color: #fbf8f8;
+    opacity: 0.6;
+    padding: 40px;
+}
+@media(max-width:916px){
+    .heading{
+        width: 445px;
+        padding: 20px;
+        font-size: 12px;
+    }
+}
+
+
+#home{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+
+
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%); 
+}
+.anim-typewriter{
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+     blinkTextCursor 500ms steps(40) infinite normal;
+
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 16em;}
+  }
+  .aboutheading{
+    color: #050A30;
+    font-family:Constantia;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .hheading{
+    color: #050A30;
+    font-family:Constantia;
+
+  }
+  .resumeheading{
+    color: #050A30;
+    font-family:Constantia;
+    padding: 20px;
+
+  }
+  .progress{
+    background-color: #d1c8e7;
+    width: 90%;
+    
+  }
+  .download{
+    color: white;
+    font-family:Constantia;
+  }
+  .button{
+    border: 1px solid black;
+  
+   
+    padding: 3px;
+    border-radius: 20px;
+    max-width: 220px;
+    width: 100%;
+  }
+  .button:hover{
+    background-color: #050A30;
+    font-weight:200;
+    color: whitesmoke;
+    border: 1px solid grey;
+    
+    
+
+  }
+  .projects{
+    color: #050A30;
+    font-family:Constantia;
+    text-align: center;
+    padding: 10px;
+}
+ .link{
+    color: blue;
+ }
+ .link:hover{
+    color: blue;
+ }
+ .mb-3{
+    max-width: 50%;
+    width: 100%;
+
+    
+ }
+ .form{
+    border: 1px solid black;
+    max-width: 80%;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(195, 183, 181);
+ }
+ @media(max-width:767px){
+    .form{
+       max-width:90%;
+    }
+ }
+ .contact{
+    color: #050A30;
+    font-family:Constantia;
+    padding: 5px;
+ }
+ .soci{
+    
+        text-align:left;
+        display: flex;
+        text-decoration: none;
+        list-style-type: none;
+        padding-left: 50px;
+        padding-right: 50px;
+       
+    
+ }
+ .mb-3{
+    max-width: 80%;
+    width: 100%;
+ }
+ @media(max-width:767){
+    .mb-3{
+   max-width: 90%;
+    }
+ }
